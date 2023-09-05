@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.BasicEnvironmentSetup", "1.BasicEnvironmentSetup\1.BasicEnvironmentSetup.csproj", "{9F0CB8E7-0015-48F7-B870-4BDBE443982E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.IntroducingC#", "2.IntroducingC#\2.IntroducingC#.csproj", "{E799546F-8E02-4630-AA4B-61DD0F2D9A5A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{9F0CB8E7-0015-48F7-B870-4BDBE443982E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F0CB8E7-0015-48F7-B870-4BDBE443982E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9F0CB8E7-0015-48F7-B870-4BDBE443982E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E799546F-8E02-4630-AA4B-61DD0F2D9A5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E799546F-8E02-4630-AA4B-61DD0F2D9A5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E799546F-8E02-4630-AA4B-61DD0F2D9A5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E799546F-8E02-4630-AA4B-61DD0F2D9A5A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
