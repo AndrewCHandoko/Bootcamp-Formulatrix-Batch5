@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.BasicEnvironmentSetup", "1.BasicEnvironmentSetup\1.BasicEnvironmentSetup.csproj", "{9F0CB8E7-0015-48F7-B870-4BDBE443982E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day1", "Day1\Day1.csproj", "{9F0CB8E7-0015-48F7-B870-4BDBE443982E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.IntroducingC#", "2.IntroducingC#\2.IntroducingC#.csproj", "{E799546F-8E02-4630-AA4B-61DD0F2D9A5A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day2", "Day2\Day2.csproj", "{E799546F-8E02-4630-AA4B-61DD0F2D9A5A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.IntroducingC#_2", "3.IntroducingC#_2\3.IntroducingC#_2.csproj", "{E843D971-CC27-44EB-BE17-985E25A4D757}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day3", "Day3\Day3.csproj", "{E843D971-CC27-44EB-BE17-985E25A4D757}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.CreatingTypesinC#", "4.CreatingTypesinC#\4.CreatingTypesinC#.csproj", "{15F9DFE0-4E04-46D6-9B63-92E0AED32D9E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day4", "Day4\Day4.csproj", "{15F9DFE0-4E04-46D6-9B63-92E0AED32D9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week1", "Week1\Week1.csproj", "{9BF88940-445C-4064-A1BA-279A0E4EB444}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -36,5 +38,9 @@ Global
 		{15F9DFE0-4E04-46D6-9B63-92E0AED32D9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{15F9DFE0-4E04-46D6-9B63-92E0AED32D9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{15F9DFE0-4E04-46D6-9B63-92E0AED32D9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BF88940-445C-4064-A1BA-279A0E4EB444}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BF88940-445C-4064-A1BA-279A0E4EB444}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BF88940-445C-4064-A1BA-279A0E4EB444}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BF88940-445C-4064-A1BA-279A0E4EB444}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

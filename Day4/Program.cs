@@ -13,7 +13,7 @@ public class Program
 		Luhk.health = 7000;
 		Luhk.attack = 120;
 		Luhk.defense = 790;
-		Console.WriteLine(Luhk.name + "Join the Game");
+		Console.WriteLine(Luhk.name + " Join the Game");
 		Luhk.ReadytoDefense();
 		Luhk.Backward();
 		Luhk.ActivateShield();		
@@ -23,7 +23,7 @@ public class Program
 		Widow.health = 2500;
 		Widow.attack = 550;
 		Widow.defense = 120;
-		Console.WriteLine(Widow + "Join the Game");
+		Console.WriteLine(Widow + " Join the Game");
 		Widow.ReadytoShoot();
 		Widow.Fly();
 		Widow.Left();
