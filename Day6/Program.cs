@@ -45,7 +45,7 @@ public class Program
 		
 		Console.WriteLine(list2[0]);
 		
-		((CarRun)list2[4]).CarRunning();
+		//((CarRun)list2[4]).CarRunning();
 		//((Car)list2[1]).CarEngineRun();
 		
 		//Generic Class 
