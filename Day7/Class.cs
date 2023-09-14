@@ -7,7 +7,7 @@ namespace Day7
 		public static int Attacked(int health, int power)
 		{
 			int leftHealth = health - power;
-			Console.WriteLine(leftHealth);
+			Console.WriteLine("Attacked : " + leftHealth);
 			Console.WriteLine("====");
 			return leftHealth;
 		}
@@ -17,10 +17,10 @@ namespace Day7
 			for (int i = health; i < health; i++)
 			{
 				health = health + 50;	
-				Console.WriteLine(health);
+				Console.WriteLine("HP : " + health);
 			}
 			Console.WriteLine("==");
-			Console.WriteLine(health);
+			Console.WriteLine("Health : " + health);
 			return health;
 		}
 		

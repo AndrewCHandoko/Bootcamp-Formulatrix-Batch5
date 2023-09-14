@@ -5,9 +5,11 @@ public class Program
 	public static void Main()
 	{
 		MyDelegate DelMiya = Hero.Attacked;
+		// DelMiya += Hero.RestoreHP;
 		int x = DelMiya.Invoke(500, 200);
+		Console.WriteLine("===========");
 		DelMiya += Hero.RestoreHP;
-		DelMiya.Invoke(x, 200);
+		DelMiya.Invoke(x, 100);
 		
 		Console.WriteLine("===========");
 		
