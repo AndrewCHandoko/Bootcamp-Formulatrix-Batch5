@@ -29,6 +29,16 @@ namespace Recap2
 			_speed = speed;	
 		}
 		
+		public string? Name()
+		{
+			return _name;
+		}
+		
+		public void Choosen(string name)
+		{
+			Console.WriteLine($"{name} have been choose by you!!!");
+		}
+		
 		public void Attack()
 		{
 			Console.WriteLine("Attack...");

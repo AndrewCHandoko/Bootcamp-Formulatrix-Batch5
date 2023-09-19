@@ -4,30 +4,24 @@ using System.Linq;
 using System.Threading.Tasks;
 
 namespace Recap2
-{
+{	
 	public class Save
 	{
+		Dictionary<string, int> savedData = new Dictionary<string, int>(5);
 		
+		public void Add(string? uName)
+		{
+			int i = 0; 
+			i = i + 1; 
+			savedData.Add(uName, i);
+		}
+		
+		public void ShowData()
+		{
+			foreach (KeyValuePair<string, int> x in savedData)
+			{
+				Console.WriteLine(x.Value + " " + x.Key);
+			}
+		}
 	}
 }
-
-
-// 	Dictionary<string, int> simpan = new Dictionary<string, int>();
-// 	public void SaveDB(object sender, DataArgs e)
-// 	{
-// 		simpan.Add(e.name, e.age);
-// 	}
-
-// 	public void ShowData()
-// 	{
-// 		Console.WriteLine("\n Show Data...");
-// 		IEnumerator iterator = simpan.GetEnumerator();
-// 		while (iterator.MoveNext())
-// 		{
-// 			Console.WriteLine(iterator.Current);
-// 		}
-// 		foreach (KeyValuePair<string, int> x in simpan)
-// 		{
-// 			Console.WriteLine($"Name: {x.Key} , Age: {x.Value} ");
-// 		}
-// 	}
