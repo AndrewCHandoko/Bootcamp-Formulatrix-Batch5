@@ -34,9 +34,9 @@ namespace Recap2
 			return _name;
 		}
 		
-		public void Choosen(string name)
+		public void Choosen(string? name)
 		{
-			Console.WriteLine($"{name} have been choose by you!!!");
+			Console.WriteLine($"{name} have been choosed by you!!!");
 		}
 		
 		public void Attack()

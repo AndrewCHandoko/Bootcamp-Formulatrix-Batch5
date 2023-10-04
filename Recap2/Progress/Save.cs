@@ -7,20 +7,46 @@ namespace Recap2
 {	
 	public class Save
 	{
-		Dictionary<string, int> savedData = new Dictionary<string, int>(5);
+		public Dictionary<int, string?> savedData = new Dictionary<int, string?>(1);
 		
-		public void Add(string? uName)
+		public void AddData(object? sender, EventData eventData)
 		{
-			int i = 0; 
-			i = i + 1; 
-			savedData.Add(uName, i);
+			savedData.Add(eventData.uID, eventData.uName);
+			/*try
+			{
+				int x = savedData.Count;
+				Console.WriteLine("x = " + x);
+				int y;
+				if (x == 0)
+				{
+					y = 1;
+					savedData.Add(y, eventData.uName);					
+				}
+				else if (x >= 1)									//Perulangan untuk cek dan tambah user
+				{
+					for (int i = x; i <= x; i++)
+					{
+						i++;
+						savedData.Add(i, eventData.uName);	
+					}
+				}
+				else
+				{
+					Console.WriteLine("Error");
+				}
+			}
+			
+			catch(Exception e)
+			{
+				Console.WriteLine(e.Message);
+			}*/
 		}
 		
 		public void ShowData()
 		{
-			foreach (KeyValuePair<string, int> x in savedData)
+			foreach (KeyValuePair<int, string?> x in savedData)
 			{
-				Console.WriteLine(x.Value + " " + x.Key);
+				Console.WriteLine(x.Key + " " + x.Value);
 			}
 		}
 	}
